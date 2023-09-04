@@ -35,11 +35,11 @@ Para ejecutar este proyecto localmente, necesitas:
 
 ## Contribución
 
-¡Apreciamos cualquier contribución para hacer que ElmStreet sea aún mejor! Si tienes ideas, sugerencias o deseas contribuir al código, no dudes en ponerte en contacto con nosotros.
+¡Aprecio cualquier contribución para hacer que ElmStreet sea aún mejor! Si tienes ideas, sugerencias o deseas contribuir al código, no dudes en ponerte en contacto conmigo.
 
 ## Autor
 
-- Karla Hernández [https://github.com/Gaherka]
+- Karla Hernández [https://github.com/Gaherka] ❤️🎃
 
 ## Licencia
 
