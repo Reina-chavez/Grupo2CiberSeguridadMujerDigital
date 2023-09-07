@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ElmStreet</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+    rel="shortcut icon"
+    href="assets/img/trick-treat5-img.png"
+    type="image/x-icon"
+  />
+  </head>
+  <body>
+    <!-- #region ENCABEZADO -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img
+            src="assets/img/trick-treat5-img.png"
+            alt=""
+            class="nav__logo-img"
+          />
+          ElmStreet
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#trick" class="nav__link">Candy</a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link">New</a>
+            </li>
+            <a href="#" class="button button--ghost">Support</a>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+          <img src="assets/img/nav-img.png" alt="" class="nav__img" />
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- #endregion -->
+    <!-- #region Principal-->
+    <main class="main">
+      <!--Menu inicial-->
+      <section class="home container" id="home">
+        <div class="swiper home-swiper">
+          <div class="swiper-wrapper">
+            <!--1 2 3-->
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <div class="home__group">
+                  <img
+                    src="assets/img/footer1-img.png"
+                    alt=""
+                    class="home__img"
+                  />
+                </div>
+
+                <div class="home__data">
+                  <h3 class="home__subtitle">#1 Fantasma más aterrador</h3>
+                  <h1 class="home__title">
+                    TRUCO O <br />
+                    TRATO!!
+                  </h1>
+                  <p class="home__description">
+                    "No-Face", es una mezcla perfecta de etiqueta de "fantasma adorable" y 
+                    "come todo lo que se mueve". 
+                    Es tan misterioso como un agujero negro con un vestido, 
+                    y cuando no está ocupado asustando a los personajes, 
+                    se comporta como un niño pequeño en una tienda de dulces. 
+                    ¡No sabes si le temes o quieres darle un abrazo!
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <div class="home__group">
+                  <img
+                    src="assets/img/home2-img.png"
+                    alt=""
+                    class="home__img"
+                  />
+                </div>
+
+                <div class="home__data">
+                  <h3 class="home__subtitle">#2 top Best duo</h3>
+                  <h1 class="home__title">
+                    TRUCO O <br />
+                    TRATO!!
+                  </h1>
+                  <p class="home__description">
+                    Haku: Haku es como el amigo que te sorprende con habilidades mágicas increíbles. 
+                    Este chico puede transformarse en un dragón majestuoso y luego volver a ser un niño, 
+                    todo mientras mantiene un cabello impecable. ¡Haku, el camaleón mágico del Viaje de Chihiro!
+                    <br>
+                    <br>
+                    Kamaji: Kamaji, el hombre de las múltiples extremidades, 
+                    es como el jefe tranquilo y sabio de la caldera más genial del mundo. 
+                    Imagina a un anciano sereno con un ejército de brazos que le sirven tazas de té y 
+                    le lanzan carbones calientes. ¡El verdadero maestro de la multitarea y el relax!
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <div class="home__group">
+                  <img
+                    src="assets/img/home3-img.png"
+                    alt=""
+                    class="home__img"
+                  />
+                </div>
+
+                <div class="home__data">
+                  <h3 class="home__subtitle">#3 Top Scariest Ghost</h3>
+                  <h1 class="home__title">
+                    TRUCO O <br />
+                    TRATO!!
+                  </h1>
+                  <p class="home__description">
+                    Yubaba: Yubaba es como la jefa de jefas, la reina del mundo de los baños termales 
+                    y una experta en firmar contratos mágicos... y también en regañar a todo el mundo. 
+                    Con su cabello estrafalario y su actitud imponente, 
+                    es la abuela de las jefas que todos temen pero que secretamente quieren impresionar. 
+                    ¡Yubaba, la mandamás de las aguas termales!
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!--Categirias-->
+      <section class="section category">
+        <h2 class="section__title">
+          Susto Favorito <br />
+          Categorias
+        </h2>
+
+        <div class="category__container container grid">
+          <div class="category__data">
+            <img
+              src="assets/img/category1-img.png"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Fantasmas</h3>
+            <p class="category__description">
+              Elige los fantasmas, los más terroríficos que hay.
+            </p>
+          </div>
+
+          <div class="category__data">
+            <img
+              src="assets/img/category2-img.png"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Calabazas</h3>
+            <p class="category__description">
+              Mira las calabazas más terroríficas que hay.
+            </p>
+          </div>
+
+          <div class="category__data">
+            <img
+              src="assets/img/category3-img.png"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Sombrero de bruja</h3>
+            <p class="category__description">
+              Elige los sombreros de bruja con más estilo del mercado.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Acerca de-->
+      <section class="section about" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Acerca de Halloween
+              <br />
+              Night
+            </h2>
+            <p class="about__description">
+              La noche de todos los santos, o de todos los difuntos, 
+              se celebra el 31 de octubre y es una fiesta internacional muy divertida, 
+              esta fiesta viene de orígenes antiguos, y ya es celebrada por todo el mundo.
+            </p>
+            <a href="#" class="button"> Saber más</a>
+          </div>
+
+          <img src="assets/img/about-img.png" alt="" class="about__img" />
+        </div>
+      </section>
+      <!--Truco o trato-->
+      <section class="section trick" id="trick">
+        <h2 class="section__title">Truco o trato</h2>
+
+        <div class="trick__container container grid">
+          <div class="trick__content">
+            <img
+              src="assets/img/trick-treat1-img.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Toffee</h3>
+            <span class="trick__subtitle">Candy</span>
+            <span class="trick__price">$11.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img
+              src="assets/img/trick-treat2-img.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Bone</h3>
+            <span class="trick__subtitle">Accessory</span>
+            <span class="trick__price">$8.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img
+              src="assets/img/trick-treat3-img.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Scarecrow</h3>
+            <span class="trick__subtitle">Accessory</span>
+            <span class="trick__price">$15.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img
+              src="assets/img/trick-treat4-img.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Candy Cane</h3>
+            <span class="trick__subtitle">Candy</span>
+            <span class="trick__price">$7.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img
+              src="assets/img/trick-treat5-img.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Pumpkin</h3>
+            <span class="trick__subtitle">Candy</span>
+            <span class="trick__price">$19.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img
+              src="assets/img/trick-treat6-img.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Ghost</h3>
+            <span class="trick__subtitle">Accessory</span>
+            <span class="trick__price">$17.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--Descuentos-->
+      <section class="section discount">
+        <div class="discount__container container grid">
+          <div class="discount__data">
+            <h2 class="discount__title">
+              50% de descuento <br />
+
+              Sobre nuevos productos
+            </h2>
+            <a href="#" class="button">Ir a nuevo</a>
+          </div>
+
+          <img src="assets/img/discount-img.png" alt="" class="discount__img" />
+        </div>
+      </section>
+      <!--Nuevos items-->
+      <section class="section new" id="new">
+        <h2 class="section__title">Los recién llegados</h2>
+
+        <div class="new__container container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/img/new1-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Haunted House</h3>
+                <span class="new__subtitle">Accessory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$14.99</span>
+                  <span class="new__discount">$29.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/img/new2-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Halloween Candle</h3>
+                <span class="new__subtitle">Accessory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$11.99</span>
+                  <span class="new__discount">$21.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/img/new3-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Witch Hat</h3>
+                <span class="new__subtitle">Accessory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$4.99</span>
+                  <span class="new__discount">$9.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/img/new4-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Rip</h3>
+                <span class="new__subtitle">Accessory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$24.99</span>
+                  <span class="new__discount">$44.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/img/new5-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Terrifying Crystal Ball</h3>
+                <span class="new__subtitle">Accessory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$5.99</span>
+                  <span class="new__discount">$12.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/img/new6-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Witch Broom</h3>
+                <span class="new__subtitle">Accessory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$7.99</span>
+                  <span class="new__discount">$14.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Suscribirse-->
+      <section class="section newsletter">
+        <div class="newsletter__container container">
+          <h2 class="section__title">Our Newsletter</h2>
+          <p class="newsletter__description">
+            Promoción de nuevos productos y ventas. Directamente a su bandeja de entrada
+          </p>
+
+          <form action="" class="newsletter__form">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="newsletter__input"
+            />
+            <button class="button">Suscribase</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!--Pie de pagina-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <img src="assets/img/logo.png" alt="" class="footer__logo-img" />
+            ElmStreet
+          </a>
+
+          <p class="footer__description">
+            Disfruta de la noche más terrorífica <br />
+            de tu vida.
+          </p>
+
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">About</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Features</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">News</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Our Services</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Pricing</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Discounts</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Shipping mode</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Our Company</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">About us</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Our mision</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footer__copy">&#169; ElmStreet</span>
+
+      <img src="assets/img/footer1-img.png" alt="" class="footer__img-one" />
+      <img src="assets/img/footer2-img.png" alt="" class="footer__img-two" />
+    </footer>
+    <!-- #endregion -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!--Scroll para que se revelen los elementos de forma suave-->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!--Deslizar elementos en una lista-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
