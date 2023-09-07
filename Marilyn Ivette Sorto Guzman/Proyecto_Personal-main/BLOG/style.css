@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;600&family=Lato:wght@700&display=swap');
+
+*{
+    text-decoration: none !important; 
+    List-style: none !important;
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+}
+
+/*========== contenido ===========*/
+#fotoMia{
+    width: 200px;
+}
+
+h1, h2,h3, p,li,h5{
+    font-family: 'Alexandria', sans-serif;
+    font-family: 'Lato', sans-serif;
+    color:#695C5B;
+}
+
+h6{
+    font-family: 'Alexandria', sans-serif;
+    font-family: 'Lato', sans-serif;
+    color:#a39998;
+}
+
+#sykes, #foundever{
+    display: none;
+}
+
+#astronauta{
+    width: 100px;
+}
+
+.redes li img{
+    padding-right: 10px;
+    width: 50px;
+    height:fit-content;
+}
+
+
+/*========== pie de pagina ===========*/
+.item-footer li img{
+    padding-right: 10px;
+    width: 25px;
+    height:fit-content;
+}
+
+.item-footer a {
+    color:#695C5B !important;
+ }

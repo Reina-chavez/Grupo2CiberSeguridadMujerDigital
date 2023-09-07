@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="script.js"></script>
+    <title>CV plus blog</title>
+</head>
+<body>   
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="imagenes/icon-astronauta.png" alt="astronauta" id="astronauta"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#footer">Redes sociales</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#recorrido">Recorrido</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="blog.html" tabindex="-1" aria-disabled="true">Blog</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Busca palabras clave" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header> 
+    
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-md-2 redes"><img src="imagenes\fotito.jfif" alt="yop" id="fotoMia"></div>
+            <div class="col-md-5 redes"> <!--para las redes sociales -->
+                <ul>
+                    <h1>MARILYN SORTO</h1>
+                    <br>
+                    <h3>Habilidades</h3>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <li>
+                                <figure>
+                                    <img src="imagenes/icon-equipo.png" alt="Telefono:" id="telefono">
+                                    <figcaption>Trabajo en equipo</figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="imagenes/icon-empatia.png" alt="Email:" id="email">
+                                    <figcaption>Empatia</figcaption>
+                                </figure>
+                            </li>
+                        </div>
+                        <div class="col-sm-6">
+                            <li>
+                                <img src="imagenes/icon-cerebro.png" alt="GitHub:" id="github">
+                                <figcaption>Resolucion de problemas</figcaption>
+                            </li>
+                            <li>
+                                <img src="imagenes/icon-aprender.png" alt="In:" id="linkedin">
+                                <figcaption>Aprendizaje rapido</figcaption>
+                            </li>
+                        </div>
+                    </div>     
+                </ul>
+            </div>
+            <div class="col-md-5 redes"> <!-- sobre mi -->
+                <h2>ACERCA DE MI</h2>
+                <p>Lo que mas disfruto hacer por el momento es caminar mientras escucho
+                música, bailar, a veces leer y amo pasar tiempo con mis gatitos.
+                <br>Mi trabajo soñado esta relacionado con el mundo de la tecnología tiene
+                tantas ramas y todas me interesan, desde la creación de paginas web y
+                ciberseguridad hasta la más alta tecnología como los prototipos de
+                partes humanas. Mi propósito para la empresa es desempeñar mis
+                conocimientos y habilidades en el mercado laboral IT con el objetivo de
+                desarrollarme profesionalmente.
+                </p>
+            </div>
+        </div>
+        <div id="recorrido">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>EDUCACIÓN</h1>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Universidad</h3>
+                            <p>Primeros 2 ciclos de la carrera ing.
+                            En ciencias de la computación en
+                            a universidad Don Bosco
+                            </p>
+                        </div> 
+                        <div class="col-md-6">
+                            <h3>Bachillerato</h3>
+                            <p>Instituto Nacional San Luis
+                            <br>2019 - 2020</p>
+                        </div>
+                    </div>
+                </div>`
+                <div class="col-md-5">
+                    <h1>EXPERIENCIA LABORAL</h1>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Sykes El Salvador</h3>
+                            <h6>Septiembre 2021 - Marzo 2022</h6>
+                            <p id="sykes">Teleoperadora. Aprendí a comunicarme mejor,
+                                al manejo del estrés, Capacidad de
+                                adaptación y responsabilidad
+                            </p>
+                            <button onclick="mostraOcultarDatos('sykes')" type="button" class="btn btn-light">+</button>
+                        </div> 
+                        <div class="col-md-6">
+                            <h3>Foundever El Salvador</h3>
+                            <h6>Noviembre 2022 - Actualidad</h6>
+                            <p id="foundever">Cuenta back office donde se requiere
+                                concentracion, agilidad y compromiso para
+                                concluir con metas especificas diarias como
+                                equipo.
+                            </p>
+                            <button onclick="mostraOcultarDatos('foundever')" type="button" class="btn btn-light">+</button>
+                        </div>
+                    </div>
+                </div>`
+            </div>
+            
+            <div class="row">
+                <h1>EDUCACION COMPLEMENTARIA</h1>
+                <div class="col-md-6">
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Centro İSupérate! ADOC</h3>
+                            <h6>2018 - 2020</h6>
+                            <p>El lema del programa ¡Supérate! es Transformando Vidas vía educación, Su duración
+                                fue de 3 años en la que aprendí ingles, computación y valores, cuando llegue era tan
+                                solo un pollito no sabia expresarme ni hablar con las personas fue en esa beca que
+                                aprendí a desarrollar mi habilidad para desenvolverme en publico.
+                            </p>
+                        </div> 
+                        <div class="col-md-6">
+                            <h3>Voluntariado en Tin Marín Museo Nacional de los Niños.</h3>
+                            <h6>2019</h6>
+                            <p>Voluntariado en el que aprendí a mejorar mis habilidades al comunicarme con los
+                                demás, los niños me llenaban mucho de alegría solo pude estar 2 meses pero aprendí
+                                mucho durante ese proceso.
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Science Girl Camp</h3>
+                            <h6>Centro Cultural Salvadoreño Americano (CCSA)
+                                <br>2019</h6>
+                            <p>Un programa que tiene como objetivo motivar a las jóvenes salvadoreñas a
+                                interesarse por la ciencia y tecnología. Lo cual logró en mi ese año me enamore de la
+                                tecnologia me interese tanto en ella al punto de que solo pasaba viendo videos
+                                acerca de las nuevas tecnologias. Ahi aprendi los principios de la logica de
+                                pogramacion, cree mi primer juego en scratch y arme un robo con legos y lo
+                                programe con ayuda de mis compañeras de grupo fue una experiencia increible
+                            </p>
+                        </div> 
+                        <div class="col-md-6">
+                            <h3>JA Mujer Digital</h3>
+                            <h6>2023 - Actualidad</h6>
+                            <p>Beca enfocada en mujeres para el desarrollo de habilidades en el área TECH y
+                                habilidades blandas
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container-fluid" id="footer">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="row contenedor-footer">
+                    <div class="col-md-4 item-footer">
+                        <ul>
+                            <li><h5>Redes Sociales</h5></li>
+                            <li><img src="imagenes/icon-telefono.png" alt="Telefono:" id="telefono">7335 1458</li>
+                            <li><img src="imagenes/icon-email.png" alt="Email:" id="email">marilyn.ivette.sorto@gmail.com</li>
+                            <li><img src="imagenes/icon-net.png" alt="GitHub:" id="github"><a href="https://github.com/Marilyn2121?tab=repositories">github.com - Marilyn2121</a></li>
+                            <li><img src="imagenes/icon-in.png" alt="In:" id="linkedin"><a href="https://www.linkedin.com/in/marilyn-sorto/">Marilyn Sorto</a></li>  
+                        </ul>
+                    </div>
+                    <div class="col-md-8 item-footer">
+                        <div class="row justify-content-ms-center">
+                            <h5>REFERENCIAS</h5>    
+                            <div class="col-md-auto ">
+                                <h6>Jenny Flores</h6>
+                                <ul>
+                                    <li>Jefe inmediata</li>
+                                    <li>Phone: 7450 2645</li>
+                                    <li>Email : jennrivera28@gmail.com</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-auto">
+                                <h6>Reina Ramos</h6>
+                                <ul>
+                                    <li>Ingeniera en sofware</li>
+                                    <li>Phone: 6420 2974</li>
+                                    <li>Email : reina.ramos@adoc.superate.org.sv</li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>            
+    </footer>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
